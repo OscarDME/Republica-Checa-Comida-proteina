@@ -33,7 +33,7 @@ export default function Closing() {
     // Generate dynamic date (today or tomorrow)
     const d = new Date();
     setUrgencyDate(
-      d.toLocaleDateString("en-US", {
+      d.toLocaleDateString("cs-CZ", {
         weekday: "long",
         year: "numeric",
         month: "long",
